@@ -1,0 +1,20 @@
+
+
+.conteiner {
+    text-align: center;
+}
+.conteiner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+table {
+            width: 50%; /* Define a largura da tabela */
+            margin: auto; /*centraliza*/
+        }
+        th, td {
+            padding: 7px; /* Adiciona espaçamento interno em todas as células */
+        }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade II - Ambientes de Desenvolvimento de Software</title>
+    <style>
+        header {
+            display: flex; /* Usar flexbox para alinhar os elementos */
+            justify-content: space-between; /* Alinhar os elementos no cabeçalho */
+            align-items: center; /* Centralizar verticalmente os elementos */
+            padding: 10px; /* Adicionar um pequeno espaçamento */
+        }
+
+        footer {
+            display: flex; /* Usar flexbox para alinhar os elementos */
+            justify-content: flex-end; /* Alinhar os elementos do rodapé à direita */
+            padding: 10px; /* Adicionar um pequeno espaçamento */
+        }
+
+        footer nav ul {
+            list-style-type: none; /* Remover marcadores de lista */
+            margin: 0; /* Remover margem padrão */
+            padding: 0; /* Remover preenchimento padrão */
+            display: flex; /* Usar flexbox para alinhar os elementos */
+        }
+
+        footer nav ul li {
+            margin-right: 10px; /* Adicionar espaçamento entre os itens */
+        }
+
+        footer nav ul li:last-child {
+            margin-right: 0; /* Remover espaçamento do último item */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/home/raul/Downloads/logolorem.png" alt="Logo da empresa">
+    </header>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>|</li> <!-- Divisor com pipe -->
+                <li><a href="quemsomos.html">Quem somos</a></li>
+                <li>|</li> <!-- Divisor com pipe -->
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
